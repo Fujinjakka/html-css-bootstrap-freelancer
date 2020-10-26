@@ -1,15 +1,25 @@
+/* debug */
 [class*="col-"] {
-  height: 50px;
   border: 1px solid black;
-
 }
+
 nav {
   height: 80px;
   background-color: #2C3E50;
+  text-align: center;
+  color: white;
+  /* position: fixed;
+  top: 0;
+  */
 }
 header {
   height: 480px;
   background-color: #1ABC9C;
+  text-align: center;
+  color: white;
+}
+main {
+  text-align: center;
 }
 footer {
   height: 266px;
@@ -25,4 +35,8 @@ footer {
 }
 .contact {
   height: 560px;
+}
+
+img {
+  height: 200px;
 }
