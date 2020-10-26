@@ -3,28 +3,26 @@
   border: 1px solid black;
 }
 
-nav {
-  height: 80px;
-  background-color: #2C3E50;
+main, nav .container, header .container, footer .container {
   text-align: center;
+}
+
+nav .container {
+  background-color: #2C3E50;
   color: white;
   /* position: fixed;
   top: 0;
   */
 }
-header {
-  height: 480px;
+
+header .container {
   background-color: #1ABC9C;
-  text-align: center;
   color: white;
 }
-main {
-  text-align: center;
-}
-footer {
+
+footer .container {
   background-color: #3A546D;
   color: white;
-  text-align: center;
 }
 footer .row:first-child {
   height: 186px;
@@ -34,14 +32,9 @@ footer .row:last-child {
   background-color: #2C3E50;
 }
 
-
-
-.about {
-  height: 400px;
+#about {
   background-color: #1ABC9C;
-}
-.contact {
-  height: 560px;
+  color: white;
 }
 
 img {
