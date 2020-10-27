@@ -7,12 +7,16 @@ main, nav .container, header .container, footer .container {
   text-align: center;
 }
 
-nav .container {
+nav .container .row {
+  height: 80px;
   background-color: #2C3E50;
   color: white;
-  /* position: fixed;
-  top: 0;
-  */
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nav_button {
+  background-color: #1ABC9C;
 }
 
 header .container {
